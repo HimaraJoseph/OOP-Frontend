@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ticket-display, .configuration, .log-display {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .configuration-form input {
+    font-size: 16px;
+  }
+
+  .configuration-form button {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+}
+
